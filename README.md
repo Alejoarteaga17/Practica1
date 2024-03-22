@@ -1,6 +1,7 @@
 # Practica numero 1 Lenguajes de Programacion
 
- ### Integrantes: - Camila Velez Garcia
+ ### Integrantes:
+ ###              - Camila Vélez García
  ###              - Alejandro Arteaga Herrera
  ### -Java 
  ### -Oracle Open JDK version 18.0.2
