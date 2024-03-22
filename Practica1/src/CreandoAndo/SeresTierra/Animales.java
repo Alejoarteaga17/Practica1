@@ -1,7 +1,8 @@
 package CreandoAndo.SeresTierra;
 
 import CreandoAndo.SeresVivos;
-
+//Es hija de seresVivos, implementa las otras dos  y por esto
+//tiene que sobreescribir los metodos
 public class Animales extends SeresVivos implements SerTierra {
     @Override
     public void respawnear() {

@@ -3,6 +3,8 @@ package CreandoAndo.SeresCielo;
 import CreandoAndo.SeresTierra.SerTierra;
 import CreandoAndo.SeresVivos;
 
+//Es hija de seresVivos, implementa las otras dos  y por esto
+//tiene que sobreescribir los metodos
 public class Aves extends SeresVivos implements SerCielo, SerTierra {
     @Override
     public void volar() {

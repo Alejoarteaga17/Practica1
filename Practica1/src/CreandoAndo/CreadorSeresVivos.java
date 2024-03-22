@@ -22,6 +22,8 @@ public class CreadorSeresVivos implements Creador {
              return new Angels();
 
          }else {
+             //Lanzo una excepcion si no se cumple ninguno de los casos de verificacion
+
              throw new IllegalArgumentException("El tipo de ser ingresado no ha sido encontrado ("+ tipoSer+")");
          }
     }

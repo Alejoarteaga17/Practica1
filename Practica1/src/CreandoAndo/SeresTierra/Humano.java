@@ -1,5 +1,5 @@
 package CreandoAndo.SeresTierra;
-
+//Override modifica la funcionalidad de los metodos en las diferentes clases(Polimorfismo?)
 
 import CreandoAndo.SeresCielo.SerCielo;
 import CreandoAndo.SeresVivos;
@@ -54,3 +54,4 @@ public class Humano extends SeresVivos implements SerTierra, SerCielo {
 
     }
 }
+

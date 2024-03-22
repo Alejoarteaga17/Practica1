@@ -7,6 +7,10 @@ import CreandoAndo.SeresTierra.Humano;
 
 public class Main {
     public static void main(String[] args) {
+        /*
+        con el metodo de crearSeresVivos creo las diferentetes
+        intancias para las clases
+         */
 
 
         System.out.println("");
