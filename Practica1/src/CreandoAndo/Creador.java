@@ -1,5 +1,8 @@
 package CreandoAndo;
 
 public interface Creador {
-    void crearSeresVivos();
+    SeresVivos crearSeresVivos(String tipoSer);
+//    void crearSeresVivos(String tipoSer);
+
+
 }

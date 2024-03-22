@@ -14,7 +14,7 @@ public class Humano extends SeresVivos implements SerTierra, SerCielo {
 
     @Override
     public void cambiarDimension() {
-        System.out.println("Cambio de dimension a la velocidad de la  como Humano");
+        System.out.println("Cambio de dimension a la velocidad de la luz  como Humano");
 
     }
 
