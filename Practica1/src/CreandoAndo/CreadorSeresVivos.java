@@ -9,17 +9,16 @@ public class CreadorSeresVivos implements Creador {
 
     @Override
     public SeresVivos crearSeresVivos(String tipoSer) {
-         if( tipoSer.toLowerCase()=="humano"){
-
+         if(tipoSer.toLowerCase().equals("humano")){
              return new Humano();
 
-         } else if (tipoSer.toLowerCase()=="animal") {
+         } else if (tipoSer.toLowerCase().equals("animal")) {
              return new Animales();
 
-         } else if (tipoSer.toLowerCase()=="ave") {
+         } else if (tipoSer.toLowerCase().equals("ave")) {
              return new Aves();
 
-         } else if (tipoSer.toLowerCase()=="angel") {
+         } else if (tipoSer.toLowerCase().equals("angel")) {
              return new Angels();
 
          }else {
@@ -27,37 +26,5 @@ public class CreadorSeresVivos implements Creador {
          }
     }
 
-
-//    public static void main(String[] args) {
-//        System.out.println("\n ");
-//
-//        Humano humano1 = new Humano();
-//        humano1.volar();
-//        humano1.cambiarDimension();
-//        humano1.planear();
-//        System.out.println("\n ");
-//
-//        Animales animal1= new Animales();
-//        animal1.reproducirse();
-//        animal1.crecer();
-//        animal1.morir();
-//        animal1.nacer();
-//        animal1.respawnear();
-//        System.out.println("\n ");
-//        //animal1.volar();
-//        // este metodo no está disponible para las clases de son solo seres de tierra
-//
-//        Aves ave1 = new Aves();
-//        ave1.cambiarDimension();
-//        ave1.reproducirse();
-//        ave1.volar();
-//        System.out.println("\n ");
-//
-//        Angels angel1 = new Angels();
-//        angel1.reproducirse();
-//        angel1.planear();
-//        angel1.morir();
-//
-//    }
 
 }

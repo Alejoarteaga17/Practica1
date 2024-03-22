@@ -12,7 +12,7 @@ public class Main {
         System.out.println("");
         CreadorSeresVivos creando = new CreadorSeresVivos();
 
-        Humano humano1 = (Humano) creando.crearSeresVivos("humano" );
+        Humano humano1 = (Humano) creando.crearSeresVivos("Humano" );
         humano1.volar();
         humano1.cambiarDimension();
         humano1.crecer();
