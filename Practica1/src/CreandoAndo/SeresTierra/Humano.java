@@ -53,5 +53,10 @@ public class Humano extends SeresVivos implements SerTierra, SerCielo {
         System.out.println("Me mori a los 100 años");
 
     }
+
+    @Override
+    public void caminar() {
+        System.out.println("Caminando como un humano");
+    }
 }
 

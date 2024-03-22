@@ -49,4 +49,9 @@ public class Aves extends SeresVivos implements SerCielo, SerTierra {
         System.out.println("Descansa en paz pajaro");
 
     }
+
+    @Override
+    public void caminar() {
+        System.out.println("Caminando en dos patas en Ave");
+    }
 }

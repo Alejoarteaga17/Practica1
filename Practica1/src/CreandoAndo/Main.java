@@ -12,6 +12,7 @@ public class Main {
         intancias para las clases
          */
 
+        System.out.println("Vamos a crear instancias de las clases Animales - Aves - Angeles - Humano");
 
         System.out.println("");
         CreadorSeresVivos creando = new CreadorSeresVivos();
@@ -25,6 +26,7 @@ public class Main {
 
         Animales animal1 =  (Animales) creando.crearSeresVivos("animal");
         animal1.reproducirse();
+        animal1.caminar();
         animal1.respawnear();
         animal1.morir();
         animal1.reproducirse();
@@ -34,6 +36,7 @@ public class Main {
 
         Aves ave1 = (Aves) creando.crearSeresVivos("ave");
         ave1.planear();
+        ave1.caminar();
         ave1.crecer();
         ave1.reproducirse();
         System.out.println("");

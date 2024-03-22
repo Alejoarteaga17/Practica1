@@ -6,6 +6,7 @@ public interface SerTierra  {
     void crecer();
     void respawnear();
     void morir();
+    void caminar();
 
 
 }

@@ -47,4 +47,9 @@ public class Angels extends SeresVivos implements SerCielo, SerTierra {
         System.out.println("Un Angel muere a los 1000 años");
 
     }
+
+    @Override
+    public void caminar() {
+        System.out.println("Bajo a la tierra y camino como un Angel");
+    }
 }

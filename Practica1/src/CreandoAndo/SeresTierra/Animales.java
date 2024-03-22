@@ -4,6 +4,8 @@ import CreandoAndo.SeresVivos;
 //Es hija de seresVivos, implementa las otras dos  y por esto
 //tiene que sobreescribir los metodos
 public class Animales extends SeresVivos implements SerTierra {
+
+
     @Override
     public void respawnear() {
         System.out.println("Respawneo como animal?");
@@ -32,5 +34,10 @@ public class Animales extends SeresVivos implements SerTierra {
     public void morir() {
         System.out.println("Me muero :| en Animal");
 
+    }
+
+    @Override
+    public void caminar() {
+        System.out.println("Caminando como un animal");
     }
 }
